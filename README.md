@@ -7,8 +7,9 @@ Usage:
   
 Parameters:
 
-  -d  --domain  Domain or IP address to analyze
-  -p  --port    Port to test.
+-d  --domain  Domain or IP address to analyze
+
+-p  --port    Port to test.
 
 Results:
 
