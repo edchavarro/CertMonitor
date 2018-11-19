@@ -25,7 +25,6 @@ def smtpsend(subject, message):
     server = smtplib.SMTP(smtpserver)
     server.starttls()
     server.login(login,password)
-    print message
     problems = server.sendmail(from_addr, to_addr_list, message)
     print problems
     server.quit()
