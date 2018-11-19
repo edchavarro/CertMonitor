@@ -16,15 +16,14 @@ Results:
   
 Example:
 
-  python cert_monitor.py -d barcamp.se
-  Start mail notification ...
-  From: ***@gmail.com
-  To: ***@gmail.com
-  Cc: ***@csiete.org
-  Subject: [Alert]  Iminent certificate expiration servidoranonimo.org
+python cert_monitor.py -d barcamp.se
+Start mail notification ...  
+From: ***@gmail.com
+To: ***@gmail.com
+Cc: ***@csiete.org
+Subject: [Alert]  Iminent certificate expiration servidoranonimo.org
 
-
-  Certificate <X509Name object '/CN=servidoranonimo.org'> will expire on 59 days.
+Certificate <X509Name object '/CN=servidoranonimo.org'> will expire on 59 days.
 
            Issuer: <X509Name object '/C=US/ST=TX/L=Houston/O=cPanel, Inc./CN=cPanel, Inc. Certification Authority'>
            Subject: <X509Name object '/CN=servidoranonimo.org'>
