@@ -7,9 +7,9 @@ Usage:
   
 Parameters:
 
--d  --domain  Domain or IP address to analyze
+  -d  --domain  Domain or IP address to analyze
 
--p  --port    Port to test.
+  -p  --port    Port to test.
 
 Results:
 
@@ -17,19 +17,19 @@ Results:
   
 Example:
 
-python cert_monitor.py -d barcamp.se
+  python cert_monitor.py -d servidoranonimo.org
 
-Start mail notification ...  
+  Start mail notification ...  
 
-From: ***@gmail.com
+  From: ***@gmail.com
 
-To: ***@gmail.com
+  To: ***@gmail.com
 
-Cc: ***@csiete.org
+  Cc: ***@csiete.org
 
-Subject: [Alert]  Iminent certificate expiration servidoranonimo.org
+  Subject: [Alert]  Iminent certificate expiration servidoranonimo.org
 
-Certificate <X509Name object '/CN=servidoranonimo.org'> will expire on 59 days.
+  Certificate <X509Name object '/CN=servidoranonimo.org'> will expire on 59 days.
 
            Issuer: <X509Name object '/C=US/ST=TX/L=Houston/O=cPanel, Inc./CN=cPanel, Inc. Certification Authority'>
            Subject: <X509Name object '/CN=servidoranonimo.org'>
