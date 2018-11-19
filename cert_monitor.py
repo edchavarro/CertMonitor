@@ -56,7 +56,7 @@ port = argsdict['port']
 cert=ssl.get_server_certificate((url, port))
 x509 = OpenSSL.crypto.load_certificate(OpenSSL.crypto.FILETYPE_PEM, cert)
 if x509.has_expired():
-    exit
+    smtpsend("Certificate expired for " + url,"Certificate expired. \n Please update it ASAP.")
 else:
     date_=x509.get_notAfter()[0:8]
     t = time.strftime("%Y,%m,%d").split(',')
