@@ -68,6 +68,6 @@ else:
 
     diff= yeard*365 + monthd * 30 + dayd
 
-    if diff <= 300:
+    if diff <= 60:
         notify(diff,x509)
 
