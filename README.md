@@ -26,6 +26,6 @@ This script will verify if the expiration date of the certificate is lower than 
 
            Issuer: <X509Name object '/C=US/ST=TX/L=Houston/O=cPanel, Inc./CN=cPanel, Inc. Certification Authority'>
            Subject: <X509Name object '/CN=servidoranonimo.org'>
-           Domain: barcamp.se
+           Domain: servidoranonimo.org
            Port: 443
  
